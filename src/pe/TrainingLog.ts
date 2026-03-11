@@ -62,7 +62,7 @@ export class TrainingLog<T> {
      * metodo que devuelve el numero total de calorias quemadas
      * @returns number total de calorias
      */
-    totalBurn(): number {
-    return this.logStorage.reduce((acc, train) => acc + train.burnedCalories, 0);
-    }
+    // totalBurn(): number {
+    // return this.logStorage.reduce((acc, train) => acc + train.burnedCalories, 0);
+    // }
 }
