@@ -1,4 +1,5 @@
 // contrato de bbdd user repo
+
 export interface UserRepository {
   findById(id: string): { id: string; name: string } | null;
 }
