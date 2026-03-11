@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { Starship, StarshipCollection } from "../src/ej1/StarshipCollection"; // Ajusta la ruta
-import { affiliationType } from "../src/ej1/GalacticRegistry";
+import { Starship, StarshipCollection } from "../../src/ej1/StarshipCollection"; // Ajusta la ruta
+import { affiliationType } from "../../src/ej1/GalacticRegistry";
 
 describe("StarshipCollection - 100% Coverage", () => {
   let shipCollection: StarshipCollection;

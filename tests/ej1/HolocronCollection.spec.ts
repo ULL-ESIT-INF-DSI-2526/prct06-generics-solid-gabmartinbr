@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { Holocron, HolocronCollection } from "../src/ej1/HolocronCollection"; // Ajusta la ruta
+import { Holocron, HolocronCollection } from "../../src/ej1/HolocronCollection"; // Ajusta la ruta
 
 describe("HolocronCollection - 100% Coverage", () => {
   let holocronCollection: HolocronCollection;

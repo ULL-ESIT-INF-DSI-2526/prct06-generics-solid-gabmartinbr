@@ -2,8 +2,8 @@ import { describe, it, expect, beforeEach } from "vitest";
 import {
   JediMaster,
   JediMasterCollection,
-} from "../src/ej1/JediMasterCollection";
-import { affiliationType } from "../src/ej1/GalacticRegistry";
+} from "../../src/ej1/JediMasterCollection";
+import { affiliationType } from "../../src/ej1/GalacticRegistry";
 
 describe("JediMasterCollection", () => {
   let collection: JediMasterCollection;
